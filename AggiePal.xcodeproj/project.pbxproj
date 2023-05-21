@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55AD624A2A1953CE00EF2CC3 /* AggiePalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62492A1953CE00EF2CC3 /* AggiePalApp.swift */; };
+		55AD624E2A1953CF00EF2CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AD624D2A1953CF00EF2CC3 /* Assets.xcassets */; };
+		55AD62512A1953CF00EF2CC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AD62502A1953CF00EF2CC3 /* Preview Assets.xcassets */; };
+		55AD62582A1953E600EF2CC3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62572A1953E600EF2CC3 /* HomeView.swift */; };
+		55AD625A2A1953EB00EF2CC3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62592A1953EB00EF2CC3 /* SearchView.swift */; };
+		55AD625C2A1953FF00EF2CC3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD625B2A1953FF00EF2CC3 /* ProfileView.swift */; };
+		55AD62612A19544700EF2CC3 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62602A19544700EF2CC3 /* AppTabView.swift */; };
+		55AD62642A1954E700EF2CC3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62632A1954E700EF2CC3 /* ViewModel.swift */; };
+		55AD62672A19558200EF2CC3 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62662A19558200EF2CC3 /* Review.swift */; };
+		55AD626A2A19567B00EF2CC3 /* RequirementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62692A19567B00EF2CC3 /* RequirementCell.swift */; };
+		55AD626D2A1956A400EF2CC3 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD626C2A1956A400EF2CC3 /* Progress.swift */; };
+		55AD626F2A19570100EF2CC3 /* EnglishCompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD626E2A19570100EF2CC3 /* EnglishCompositionView.swift */; };
+		55AD62712A19570A00EF2CC3 /* GeneralEducationTBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62702A19570A00EF2CC3 /* GeneralEducationTBView.swift */; };
+		55AD62732A19571700EF2CC3 /* GeneralEducationCLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62722A19571700EF2CC3 /* GeneralEducationCLView.swift */; };
+		55AD62752A19572100EF2CC3 /* CompSciMajorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62742A19572100EF2CC3 /* CompSciMajorView.swift */; };
+		55AD62772A19572A00EF2CC3 /* NaturalSciencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62762A19572A00EF2CC3 /* NaturalSciencesView.swift */; };
+		55AD62792A19576200EF2CC3 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD62782A19576200EF2CC3 /* Class.swift */; };
+		55AD627B2A19619300EF2CC3 /* TeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD627A2A19619300EF2CC3 /* TeacherView.swift */; };
+		55AD627D2A1966C900EF2CC3 /* ClassInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD627C2A1966C900EF2CC3 /* ClassInfoView.swift */; };
+		55AD627F2A19673900EF2CC3 /* ClassInfoHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD627E2A19673900EF2CC3 /* ClassInfoHomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55AD62462A1953CE00EF2CC3 /* AggiePal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AggiePal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AD62492A1953CE00EF2CC3 /* AggiePalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggiePalApp.swift; sourceTree = "<group>"; };
+		55AD624D2A1953CF00EF2CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55AD62502A1953CF00EF2CC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55AD62572A1953E600EF2CC3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		55AD62592A1953EB00EF2CC3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		55AD625B2A1953FF00EF2CC3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		55AD62602A19544700EF2CC3 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		55AD62632A1954E700EF2CC3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		55AD62662A19558200EF2CC3 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		55AD62692A19567B00EF2CC3 /* RequirementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementCell.swift; sourceTree = "<group>"; };
+		55AD626C2A1956A400EF2CC3 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		55AD626E2A19570100EF2CC3 /* EnglishCompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishCompositionView.swift; sourceTree = "<group>"; };
+		55AD62702A19570A00EF2CC3 /* GeneralEducationTBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralEducationTBView.swift; sourceTree = "<group>"; };
+		55AD62722A19571700EF2CC3 /* GeneralEducationCLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralEducationCLView.swift; sourceTree = "<group>"; };
+		55AD62742A19572100EF2CC3 /* CompSciMajorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompSciMajorView.swift; sourceTree = "<group>"; };
+		55AD62762A19572A00EF2CC3 /* NaturalSciencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalSciencesView.swift; sourceTree = "<group>"; };
+		55AD62782A19576200EF2CC3 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		55AD627A2A19619300EF2CC3 /* TeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherView.swift; sourceTree = "<group>"; };
+		55AD627C2A1966C900EF2CC3 /* ClassInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInfoView.swift; sourceTree = "<group>"; };
+		55AD627E2A19673900EF2CC3 /* ClassInfoHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInfoHomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55AD62432A1953CE00EF2CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55AD623D2A1953CE00EF2CC3 = {
+			isa = PBXGroup;
+			children = (
+				55AD62482A1953CE00EF2CC3 /* AggiePal */,
+				55AD62472A1953CE00EF2CC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55AD62472A1953CE00EF2CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55AD62462A1953CE00EF2CC3 /* AggiePal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AD62482A1953CE00EF2CC3 /* AggiePal */ = {
+			isa = PBXGroup;
+			children = (
+				55AD62492A1953CE00EF2CC3 /* AggiePalApp.swift */,
+				55AD62602A19544700EF2CC3 /* AppTabView.swift */,
+				55AD626B2A19569100EF2CC3 /* Enums */,
+				55AD62652A19550200EF2CC3 /* Models */,
+				55AD62622A1954D200EF2CC3 /* View Models */,
+				55AD625F2A19541E00EF2CC3 /* Home */,
+				55AD625E2A19541800EF2CC3 /* Search */,
+				55AD625D2A19540D00EF2CC3 /* Profile */,
+				55AD62682A1955A500EF2CC3 /* Custom Components */,
+				55AD624D2A1953CF00EF2CC3 /* Assets.xcassets */,
+				55AD624F2A1953CF00EF2CC3 /* Preview Content */,
+			);
+			path = AggiePal;
+			sourceTree = "<group>";
+		};
+		55AD624F2A1953CF00EF2CC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55AD62502A1953CF00EF2CC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55AD625D2A19540D00EF2CC3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				55AD625B2A1953FF00EF2CC3 /* ProfileView.swift */,
+				55AD626E2A19570100EF2CC3 /* EnglishCompositionView.swift */,
+				55AD62702A19570A00EF2CC3 /* GeneralEducationTBView.swift */,
+				55AD62722A19571700EF2CC3 /* GeneralEducationCLView.swift */,
+				55AD62742A19572100EF2CC3 /* CompSciMajorView.swift */,
+				55AD62762A19572A00EF2CC3 /* NaturalSciencesView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		55AD625E2A19541800EF2CC3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				55AD62592A1953EB00EF2CC3 /* SearchView.swift */,
+				55AD627C2A1966C900EF2CC3 /* ClassInfoView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		55AD625F2A19541E00EF2CC3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				55AD62572A1953E600EF2CC3 /* HomeView.swift */,
+				55AD627E2A19673900EF2CC3 /* ClassInfoHomeView.swift */,
+				55AD627A2A19619300EF2CC3 /* TeacherView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		55AD62622A1954D200EF2CC3 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				55AD62632A1954E700EF2CC3 /* ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		55AD62652A19550200EF2CC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55AD62662A19558200EF2CC3 /* Review.swift */,
+				55AD62782A19576200EF2CC3 /* Class.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55AD62682A1955A500EF2CC3 /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				55AD62692A19567B00EF2CC3 /* RequirementCell.swift */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		55AD626B2A19569100EF2CC3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				55AD626C2A1956A400EF2CC3 /* Progress.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55AD62452A1953CE00EF2CC3 /* AggiePal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AD62542A1953CF00EF2CC3 /* Build configuration list for PBXNativeTarget "AggiePal" */;
+			buildPhases = (
+				55AD62422A1953CE00EF2CC3 /* Sources */,
+				55AD62432A1953CE00EF2CC3 /* Frameworks */,
+				55AD62442A1953CE00EF2CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AggiePal;
+			productName = AggiePal;
+			productReference = 55AD62462A1953CE00EF2CC3 /* AggiePal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55AD623E2A1953CE00EF2CC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					55AD62452A1953CE00EF2CC3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 55AD62412A1953CE00EF2CC3 /* Build configuration list for PBXProject "AggiePal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55AD623D2A1953CE00EF2CC3;
+			productRefGroup = 55AD62472A1953CE00EF2CC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AD62452A1953CE00EF2CC3 /* AggiePal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55AD62442A1953CE00EF2CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AD62512A1953CF00EF2CC3 /* Preview Assets.xcassets in Resources */,
+				55AD624E2A1953CF00EF2CC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55AD62422A1953CE00EF2CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AD62752A19572100EF2CC3 /* CompSciMajorView.swift in Sources */,
+				55AD626F2A19570100EF2CC3 /* EnglishCompositionView.swift in Sources */,
+				55AD62712A19570A00EF2CC3 /* GeneralEducationTBView.swift in Sources */,
+				55AD627B2A19619300EF2CC3 /* TeacherView.swift in Sources */,
+				55AD62792A19576200EF2CC3 /* Class.swift in Sources */,
+				55AD626D2A1956A400EF2CC3 /* Progress.swift in Sources */,
+				55AD625A2A1953EB00EF2CC3 /* SearchView.swift in Sources */,
+				55AD626A2A19567B00EF2CC3 /* RequirementCell.swift in Sources */,
+				55AD62582A1953E600EF2CC3 /* HomeView.swift in Sources */,
+				55AD62672A19558200EF2CC3 /* Review.swift in Sources */,
+				55AD625C2A1953FF00EF2CC3 /* ProfileView.swift in Sources */,
+				55AD624A2A1953CE00EF2CC3 /* AggiePalApp.swift in Sources */,
+				55AD62642A1954E700EF2CC3 /* ViewModel.swift in Sources */,
+				55AD627D2A1966C900EF2CC3 /* ClassInfoView.swift in Sources */,
+				55AD627F2A19673900EF2CC3 /* ClassInfoHomeView.swift in Sources */,
+				55AD62612A19544700EF2CC3 /* AppTabView.swift in Sources */,
+				55AD62732A19571700EF2CC3 /* GeneralEducationCLView.swift in Sources */,
+				55AD62772A19572A00EF2CC3 /* NaturalSciencesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55AD62522A1953CF00EF2CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55AD62532A1953CF00EF2CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55AD62552A1953CF00EF2CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AggiePal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohalibou.AggiePal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55AD62562A1953CF00EF2CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AggiePal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohalibou.AggiePal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55AD62412A1953CE00EF2CC3 /* Build configuration list for PBXProject "AggiePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AD62522A1953CF00EF2CC3 /* Debug */,
+				55AD62532A1953CF00EF2CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55AD62542A1953CF00EF2CC3 /* Build configuration list for PBXNativeTarget "AggiePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AD62552A1953CF00EF2CC3 /* Debug */,
+				55AD62562A1953CF00EF2CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55AD623E2A1953CE00EF2CC3 /* Project object */;
+}

@@ -18,5 +18,5 @@ A unified platform designed for UC Davis students to manage their academic lives
   <img src="phone2.png" width="250">
   <img src="phone3.png" width="250">
   <img src="phone4a.png" width="250">
-  <img src="image5.png" width="250">
+  <img src="phone5.png" width="250">
 </p>
